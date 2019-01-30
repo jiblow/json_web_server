@@ -1,0 +1,20 @@
+{
+  "name": "test_json",
+  "version": "1.0.0",
+  "description": "fetching from json api",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "json:server:remote": "json-server https://jsonplaceholder.typicode.com/db",
+    "start": "nodemon index.js"
+  },
+  "author": "jb",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "json-server": "^0.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
